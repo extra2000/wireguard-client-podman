@@ -17,7 +17,7 @@ podman build -t extra2000/wireguard-client .
 ## Load SELinux policy
 
 ```
-sudo semodule -i selinux/wireguard_client.cil /usr/share/udica/templates/base_container.cil
+sudo semodule -i selinux/wireguard_client_podman.cil /usr/share/udica/templates/base_container.cil
 ```
 
 
