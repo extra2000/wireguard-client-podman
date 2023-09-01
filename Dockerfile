@@ -1,4 +1,4 @@
-FROM docker.io/library/ubuntu:20.04
+FROM docker.io/library/ubuntu:22.04
 
 RUN apt update && apt install -y wireguard iputils-ping iptables dos2unix iproute2 openresolv
 
